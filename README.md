@@ -2,7 +2,7 @@
 
 Faça um fork desse repositório e desenvolva as tarefas descritas abaixo. Ao finalizar, abra um pull request para este repositório:
 
-* Atualmente o projeto consulta uma base de dados local. Isso deve ser alterado para que os dados sejam obtidos a partir da API TODO: ADICIONAR LINK PRA API.
+* Atualmente o projeto consulta uma base de dados local. Isso deve ser alterado para que os dados sejam obtidos dinamicamente a partir da API https://d30jh267s60dz7.cloudfront.net/ads.json
 * Como agora os dados vêm da API, deve-se exibir uma tela de loading enquanto os dados são carregados.
 * Como agora os dados vêm da API, deve-se exibir uma tela de erro caso a requisição falhe.
 * O AdCard deve ser modificado para que fique o mais próximo possível do seguinte layout:
