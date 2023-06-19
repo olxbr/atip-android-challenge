@@ -54,7 +54,7 @@ class ListingViewModel(
     private fun filter(query: String) {
         viewModelScope.launch(dispatcher) {
             val result =
-                service.getAds().filter { ad -> ad.subject.contains(query, ignoreCase = true) }
+                service.getAds().filter { ad -> ad.subject.startsWith(query) }
 
             _state.update { ListingState.Success(result, query) }
         }
