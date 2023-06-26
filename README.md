@@ -1,6 +1,6 @@
 ## Desafio Android OLX
 
-Faça um fork **privado** desse repositório e desenvolva as tarefas descritas abaixo. Ao finalizar, compartilhe o seu fork com os users @mqueiroz1995 @lestanzione e @torrescalazans e notifique o recrutador que está conduzindo seu processo seletivo.
+Faça um fork desse repositório e desenvolva as tarefas descritas abaixo. Ao finalizar, compartilhe o seu fork com os users @mqueiroz1995 @lestanzione e @torrescalazans e notifique o recrutador que está conduzindo seu processo seletivo.
 
 * Atualmente o projeto consulta uma base de dados local. Isso deve ser alterado para que os dados sejam obtidos dinamicamente a partir da API https://d30jh267s60dz7.cloudfront.net/ads.json
 * Como agora os dados vêm da API, deve-se exibir uma tela de loading enquanto os dados são carregados.
